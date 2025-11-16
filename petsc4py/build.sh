@@ -54,6 +54,8 @@ DOWNLOADS="\
     --download-netcdf \
     --download-pnetcdf \
     --download-eigen \
+    --download-mmg \
+    --download-parmmg \
 "
 if [[ "$SCALAR_TYPE" != "complex" ]]; then
     DOWNLOADS="$DOWNLOADS \
